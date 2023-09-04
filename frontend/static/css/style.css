@@ -1,0 +1,139 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  a.nav {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  a.nav:hover {
+    background-color: #f0f0f0;
+  }
+  .image-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .image-list li {
+    margin: 0;
+  }
+  
+  .image-list img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  /* Style pour toute la carte */
+.image-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.image-list li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-list img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+/* Style pour le texte dans la carte */
+ .info {
+  margin-top: 10px;
+  margin-left: 13px;
+}
+/* Réinitialisation des marges et des rembourrages par défaut */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style de base pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Couleur de fond de la page */
+}
+
+/* Style pour l'en-tête hero */
+.hero {
+  background-color: #3498db; /* Couleur de fond de la section hero */
+  color: #fff; /* Couleur du texte */
+  text-align: center;
+  padding: 100px 0; /* Espace autour du contenu */
+}
+
+/* Styles pour les titres */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style pour le contenu principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre horizontalement */
+  justify-content: center; /* Centre verticalement */
+  text-align: center; /* Centre le texte */
+  height: 40vh; /* Hauteur égale à la hauteur de la fenêtre */
+}
+
+
+/* Style pour les liens */
+a {
+  color: #3498db; /* Couleur du lien */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Style pour le pied de page */
+footer {
+  background-color: #1e3d86; /* Couleur de fond du pied de page */
+  color: #fff; /* Couleur du texte */
+  text-align: center;
+  padding: 10px 0; /* Espace autour du contenu */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
