@@ -30,9 +30,10 @@ const router = async () => {
 
     const routes = [
       
-        {path: '/image-detail/:id', view: ImageDetail},
+       
         {path: '/', view: Accueils},
         {path: '/images', view: Images},
+        {path: '/image-detail/:id', view: ImageDetail},
         
     ]
 

@@ -48,8 +48,9 @@ export default class extends AbstractView {
 
     // Construction de la structure HTML pour afficher les détails de l'image
     return `
-      <li>
+      <li id="conten">
           <img src="${image.webformatURL}" alt="Image ${image.id}" data-link>
+          
           <div class="info">
               <p>User: ${image.user}</p>
               <p>Likes: ${image.likes}</p>

@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const request = require('request');
 const fs = require('fs');
-const { PORT, API_KEY } = require('./config.js'); // Assurez-vous d'importer également API_KEY
+const {API_KEY } = require('./config.js'); // Assurez-vous d'importer également API_KEY
 
 
 app.use("/static", express.static(path.resolve(__dirname, 'frontend', 'static')))
